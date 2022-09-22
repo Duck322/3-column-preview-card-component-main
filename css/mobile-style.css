@@ -124,9 +124,18 @@ button {
 }
 
 .attribution {
-  font-size: 0.6875rem;
+  margin-bottom: 30px;
+  padding: 10px;
+  border-radius: 15px;
+  color: var(--Very-dark-cyan);
+  border: solid 2px var(--bright-orange);
+  font-size: 0.75rem;
   text-align: center;
 }
 .attribution a {
-  color: #3e52a3;
+  color: var(--bright-orange);
+}
+
+.attribution a:hover {
+  color: var(--Dark-cyan);
 }
